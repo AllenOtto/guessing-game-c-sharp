@@ -18,7 +18,7 @@ while(userGuess != secretNumber && guessCount < guessLimit) {
         Console.Write(e.Message + "\n");
     }
 
-    // 
+    // Increment guess count
     guessCount++;
 }
 
